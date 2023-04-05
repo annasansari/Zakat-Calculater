@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zakat Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="hadees">“And establish prayer and give Zakat, and whatever good you put forward for yourselves – you will find it with Allah.” (2:110, Qur'an) </h1>
+    </div>
+    <h1 class="main-heading">Zakat Calculator</h1>
+    <form>
+        <label for="amount">Enter Your Amount</label>
+        <input value="" placeholder="Enter amoutn in PKR" type="number" id="amount" name="amount" required>
+        <input value="" placeholder="Enter Gold in Tola" type="number" id="gold" name="tola" required>
+        <input value="" placeholder="Enter Silver in Tola" type="number" id="silver" name="tola" required>
+        <button class="btn-1" type="button" onclick="zakatcalc()">Calculate Zakat</button>
+    </form>
+    <div class="anu">
+        <div id="result"></div>
+        <div id="result1"></div>
+        <div id="result2"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

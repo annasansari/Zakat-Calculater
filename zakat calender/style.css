@@ -1,0 +1,79 @@
+body {
+    background-image: url(images/zakat-facts-and-rules.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+.hadees {
+    color: #fff;
+    font-family: monospace;
+}
+
+.main-heading {
+    color: white;
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    font-size: 1.2em;
+    background-color: #b5d6b6;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    margin-top: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-family: monospace;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    transition: .7s;
+}
+
+#result {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: monospace;
+    margin-top: 20px;
+    display: none;
+}
+
+.btn-1:hover {
+    background-color: #43a746;
+}
+
+.anu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
